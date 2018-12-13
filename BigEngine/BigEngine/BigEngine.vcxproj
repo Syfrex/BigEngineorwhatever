@@ -167,6 +167,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Helpers\FileHelper.cpp" />
     <ClCompile Include="Math\Color.cpp" />
     <ClCompile Include="Engine\Engine.cpp" />
     <ClCompile Include="Files\ConfigHandler.cpp" />
@@ -175,10 +176,12 @@
     <ClCompile Include="Files\LogHandler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Helpers\StringHelper.cpp" />
+    <ClCompile Include="Engine\ShaderProgram.cpp" />
     <ClCompile Include="third\tinyxml2.cpp" />
     <ClCompile Include="Engine\Window.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Helpers\FileHelper.h" />
     <ClInclude Include="Math\Color.h" />
     <ClInclude Include="Engine\Engine.h" />
     <ClInclude Include="Files\ConfigHandler.h" />
@@ -186,6 +189,7 @@
     <ClInclude Include="Files\LogFile.h" />
     <ClInclude Include="Files\LogHandler.h" />
     <ClInclude Include="Helpers\StringHelper.h" />
+    <ClInclude Include="Engine\ShaderProgram.h" />
     <ClInclude Include="third\tinyxml2.h" />
     <ClInclude Include="third\tixml2ex.h" />
     <ClInclude Include="Engine\Window.h" />
